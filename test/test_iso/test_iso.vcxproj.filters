@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\test">
+      <UniqueIdentifier>{3d6eb4b3-0209-4066-853f-667d17c123bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\src">
+      <UniqueIdentifier>{527baec7-f4b9-47cd-a273-cb593a10bb65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\test\vendor">
+      <UniqueIdentifier>{48ebc27b-5da4-406d-9f1c-50dcd20edb21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\test_isogram.c">
+      <Filter>Resource Files\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\isogram.c">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\vendor\unity.c">
+      <Filter>Resource Files\test\vendor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\isogram.h">
+      <Filter>Resource Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\unity.h">
+      <Filter>Resource Files\test\vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\vendor\unity_internals.h">
+      <Filter>Resource Files\test\vendor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
